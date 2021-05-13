@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+       <meta charset="utf-8">
+    <title> Catarina Manuel Restarant  </title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+
+  </head>
+  <body>
+
+      <div class="principal">
+
+        <div class="nav-bar">
+          <div class="nav-logotipo">
+            <img src="imagens/flain.png">
+          </div>
+
+          <div class="nav-links">
+            <ul>
+              <a href="#"> <li> HOME </li></a>
+              <a href="#"> <li> ABOUT </li></a>
+              <a href="#"> <li> RECENTE </li></a>
+            </ul>
+
+            <button type="button" class="btn"><a href="#" onclick= "formularioPopUp();"> LOGIN </a> </button>
+           
+          </div>
+        </div>
+
+        <div class="banner-title">
+
+          <h1> Food <span> Doesn't Have <br> Religion </span>. It's a Religion </h1>
+          <button type="button" class="btn"> NOVIDADES  </button>
+        </div>
+
+          <div class="vertical-bar">
+            <div class="search-icons">
+              <i class="fa fa-th-list"></i>
+              <i class="fa fa-search"></i>
+
+            </div>
+            <div class="social-icons">
+
+
+                 <img   src="imagens/facebook-f.svg" alt="Error could no read the picture">
+                  <img   src="imagens/whatsapp.svg" alt="Error could no read the picture">
+                  <img   src="imagens/linkedin-in.svg" alt="Error could no read the picture">
+                  <img   src="imagens/twitter.svg" alt="Error could no read the picture">
+
+
+
+           </div>
+
+           <div class="notifications">
+
+           <div class="contents"> </div>
+           <div class="notifications-img">
+
+            </div>
+
+           </div>
+
+      </div>
+          
+  <div id="popup">
+      
+  <div class="contenT">
+      
+     <img src="imagens/default_user.png" alt="Error could not find the picture">
+
+     
+
+     <div class="inputBox">
+        <input type="email" placeholder="username">
+     </div>
+     <div class="inputBox">
+         <a href="DashBoadr.jsp"> <input type="submit" value="Entrar" class="btn"> </a>
+     </div>
+  </div>
+<a class="close" onclick="formularioPopUp();"> <img src="imagens/close.png"></a>
+
+</div>
+
+
+<script>
+    
+      function formularioPopUp()
+       {
+             const popup = document.getElementById("popup");
+             popup.classList.toggle('active');
+
+       }
+
+       </script>
+
+    </body>
+    
+</html>

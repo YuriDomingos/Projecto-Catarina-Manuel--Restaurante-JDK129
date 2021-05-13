@@ -1,0 +1,133 @@
+/*
+@Autor : Yuri Domingos
+Data   : 3 - 04 - 2021
+Objectivo : criar o style do nosso objetivo para clicar e levar la dentro
+
+*/
+
+
+
+.btn {
+
+    position: relative;
+    padding: 15px 20px;
+    background:#F2E205;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 500;
+    color: 03a9f4;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+
+
+
+}
+
+.btn:hover{
+
+    letter-spacing: 4px;
+}
+
+
+#popup
+{
+    position: fixed;
+    left: 50%;
+    top: -100%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    background: #000;
+    width: 305px;
+    padding: 80px 50px 50px;
+    box-shadow: 0 15px 30px rgba(0, 0,0,0.08);
+    transition: 0.5s;
+    visibility: hidden;
+
+}
+
+#popup.active {
+
+    visibility: visible;
+    top: 50%;
+
+}
+
+#popup .contenT
+{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+#popup .contenT img {
+
+    max-width: 80px;
+}
+
+#popup .contenT h2 {
+
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin: 20px 0 10px;
+    color : white;
+}
+
+#popup .contenT p {
+
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+#popup .contenT .inputBox {
+
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#popup .contenT .inputBox input {
+
+    font-size: 18px;
+    outline: none;
+    padding: 15px;
+    border: 1px solid rgba(0, 0,0,0.2);
+    width: 100%;
+
+}
+
+#popup .contenT .inputBox input[type="submit"]
+{
+    max-width: 150px;
+    border: none;
+    color: #fff;
+    background: #A67C49;
+}
+
+.close {
+
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.close img {
+
+    width: 26%;
+    height: 26%;
+    float: right;
+    cursor: pointer;
+    margin-top:-32px;
+}

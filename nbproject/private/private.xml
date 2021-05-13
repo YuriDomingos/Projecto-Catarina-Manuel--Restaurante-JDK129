@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/src/java/Servelet/ClienteServelet.java</file>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/web/Produtos.jsp</file>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/src/java/Funcionario.java</file>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/src/java/Conexao/Conexao.java</file>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/src/java/Modelo/ClienteModelo.java</file>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/web/DashBoadr.jsp</file>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/src/java/Modelo/PratoModelo.java</file>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/web/index.html</file>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/src/java/DAO/PratoDAO.java</file>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/src/java/Modelo/CategoriaModelo.java</file>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/web/Funcionario.jsp</file>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/src/java/DAO/CategoriaDAO.java</file>
+            <file>file:/home/yuridomingos/NetBeansProjects/ProjectoRestauranteCatarina/src/java/DAO/ClienteDAO.java</file>
+        </group>
+    </open-files>
+</project-private>
